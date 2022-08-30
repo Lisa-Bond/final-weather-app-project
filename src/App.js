@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Uummannaq" />
         <footer>
           Код цього застосунку виконано{" "}
           <a href="https://www.facebook.com/lisabondarenko" target="_blank">
