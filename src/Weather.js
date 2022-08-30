@@ -9,7 +9,7 @@ export default function Weather() {
           <div className="col-9">
             <input
               type="search"
-              placeholder="Enter a city..."
+              placeholder="Введіть назву міста..."
               className="form-control"
               autoFocus="on"
             />
@@ -17,7 +17,7 @@ export default function Weather() {
           <div className="col-3">
             <input
               type="submit"
-              value="Search"
+              value="Пошук"
               className="btn btn-primary w-100"
             />
           </div>
@@ -25,7 +25,9 @@ export default function Weather() {
       </form>
       <h1>Київ</h1>
       <ul>
-        <li>Понеділок, 23:39</li>
+        <li>Понеділок</li>
+        <li>29 серпня 2022</li>
+        <li>22:38</li>
         <li>Мінлива хмарність</li>
       </ul>
       <div className="row mt-3">
