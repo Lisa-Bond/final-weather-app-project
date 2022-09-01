@@ -43,7 +43,7 @@ export default function Weather(props) {
         <h1>{weatherData.city}</h1>
         <ul>
           <li>
-            <DateFormatted date={weatherData.date()} />
+            <DateFormatted date={weatherData.date} />
           </li>
           <li>29 серпня 2022</li>
           <li className="text-capitalize">{weatherData.description}</li>
