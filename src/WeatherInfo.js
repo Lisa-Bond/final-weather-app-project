@@ -11,19 +11,17 @@ export default function WeatherInfo(props) {
         <li>
           <DateFormatted date={props.data.date} />
         </li>
-        <li>29 серпня 2022</li>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
-        <div className="col-6">
+        <div className="col-8 canvas">
           <WeatherIcon code={props.data.icon} />
           <ConvertTemperature celsius={props.data.temperature} />
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <ul>
-            <li>{props.data.description}</li>
-            <li>Вологість: {props.data.humidity}%</li>
-            <li>Вітер: {Math.round(props.data.wind)} км/год</li>
+            <li>Humidity: {props.data.humidity}%</li>
+            <li>Wind: {Math.round(props.data.wind)} km/h</li>
           </ul>
         </div>
       </div>

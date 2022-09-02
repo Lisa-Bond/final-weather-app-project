@@ -8,16 +8,16 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Uummannaq" />
         <footer>
-          Код цього застосунку виконано{" "}
+          This app is coded by{" "}
           <a href="https://www.facebook.com/lisabondarenko" target="_blank">
-            Єлизаветою Бондаренко
+            Lisa Bondarenko
           </a>{" "}
-          і він знаходиться у{" "}
+          and is open-sourced on{" "}
           <a
             href="https://github.com/Lisa-Bond/final-weather-app-project"
             target="_blank"
           >
-            відкритому доступі
+            GitHub
           </a>
         </footer>
       </div>

@@ -42,7 +42,7 @@ export default function Weather(props) {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Введіть назву місцевості..."
+                placeholder="Enter your location here..."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
@@ -51,7 +51,7 @@ export default function Weather(props) {
             <div className="col-3">
               <input
                 type="submit"
-                value="Пошук"
+                value="Search"
                 className="btn btn-primary w-100"
               />
             </div>
@@ -62,6 +62,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Іде завантаження...";
+    return "Loading...";
   }
 }
