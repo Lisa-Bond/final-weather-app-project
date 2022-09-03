@@ -8,7 +8,7 @@
 }
 .Weather h1 {
   display: block;
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 100;
   line-height: 36px;
   margin: 20px 0 20px 0;
@@ -26,8 +26,8 @@
   list-style: none;
 }
 .Weather canvas {
-  height: 64px;
-  width: 64px;
+  height: 72px;
+  width: 72px;
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
@@ -36,8 +36,8 @@
   font-weight: bold;
   color: rgb(33, 33, 33);
   font-weight: 400;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 72px;
+  line-height: 72px;
   vertical-align: middle;
 }
 .Weather .unit {
