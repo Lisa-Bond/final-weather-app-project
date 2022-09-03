@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
-        <div className="col-8 canvas">
+        <div className="col-8 canvas d-flex">
           <WeatherIcon code={props.data.icon} />
           <ConvertTemperature celsius={props.data.temperature} />
         </div>
