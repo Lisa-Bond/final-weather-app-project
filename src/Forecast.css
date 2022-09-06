@@ -1,7 +1,9 @@
 .Forecast {
   text-align: center;
+  margin: 20px 0 0 5px;
+  font-size: 12px;
+  color: #5f6f94;
 }
-
 .ForecastTemperature-min {
   opacity: 0.6;
   margin-left: 5px;
